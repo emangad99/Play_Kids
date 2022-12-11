@@ -4,17 +4,62 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/co2"
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        android:textSize="60dp"
-        android:fontFamily="@font/comic_ggcko_pro"
+        android:id="@+id/play"
+        android:layout_width="219dp"
+        android:layout_height="157dp"
+        android:layout_marginStart="81dp"
+        android:layout_marginTop="157dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="465dp"
+        android:fontFamily="@font/gummy_bears"
+        android:gravity="top"
+        android:text="Play"
+        android:textColor="@color/co6"
+        android:textSize="128sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/kids"
+        android:layout_width="206dp"
+        android:layout_height="147dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="442dp"
+        android:layout_marginEnd="69dp"
+        android:layout_marginBottom="187dp"
+        android:fontFamily="@font/gummy_bears"
+        android:gravity="top"
+        android:text="Kids"
+        android:textColor="@color/co6"
+        android:textSize="128sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/hi_1"
+        android:layout_width="204dp"
+        android:layout_height="185dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="302dp"
+        android:layout_marginEnd="96dp"
+        android:layout_marginBottom="313dp"
+        android:background="@drawable/hi"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

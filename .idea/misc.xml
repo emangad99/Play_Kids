@@ -3,7 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Eman/AndroidStudioProjects/PlayKids/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Eman/AndroidStudioProjects/PlayKids/app/src/main/res/layout-h800dp/activity_main.xml" value="0.14105191256830601" />
+        <entry key="..\:/Users/Eman/AndroidStudioProjects/PlayKids/app/src/main/res/layout-w360dp-h800dp/activity_main.xml" value="0.16944444444444445" />
+        <entry key="..\:/Users/Eman/AndroidStudioProjects/PlayKids/app/src/main/res/layout/activity_main.xml" value="0.176" />
+        <entry key="..\:/Users/Eman/AndroidStudioProjects/PlayKids/app/src/main/res/layout/activity_splash.xml" value="0.16006944444444443" />
       </map>
     </option>
   </component>
