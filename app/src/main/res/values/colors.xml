@@ -5,6 +5,23 @@
     <color name="purple_700">#FF3700B3</color>
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
+
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="co1">#FDA134</color>
+    <color name="co2">#FDE8EA</color>
+    <color name="co3">#FEC172</color>
+    <color name="co4">#7B8200</color>
+    <color name="co5">#FF836F</color>
+    <color name="co6">#B60242</color>
+    <color name="gray">#9A9A9A</color>
+    <color name="gray_button">#706F6F</color>
+    <color name="background">#EACED1</color>
+
+    <color name="Correct">#2CCA32</color>
+    <color name="Wrong">#F91C1C</color>
+
+
+
 </resources>
