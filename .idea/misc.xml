@@ -4,11 +4,23 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Eman/AndroidStudioProjects/PlayKids/app/src/main/res/drawable/arrow_6.xml" value="0.2295" />
+        <entry key="..\:/Users/Eman/AndroidStudioProjects/PlayKids/app/src/main/res/drawable/button.xml" value="0.2455" />
+        <entry key="..\:/Users/Eman/AndroidStudioProjects/PlayKids/app/src/main/res/drawable/button_go.xml" value="0.2455" />
         <entry key="..\:/Users/Eman/AndroidStudioProjects/PlayKids/app/src/main/res/drawable/vector.xml" value="0.2295" />
+        <entry key="..\:/Users/Eman/AndroidStudioProjects/PlayKids/app/src/main/res/drawable/visibility_off.xml" value="0.2455" />
         <entry key="..\:/Users/Eman/AndroidStudioProjects/PlayKids/app/src/main/res/layout-h800dp/activity_main.xml" value="0.14105191256830601" />
+        <entry key="..\:/Users/Eman/AndroidStudioProjects/PlayKids/app/src/main/res/layout-w360dp-h800dp/activity_login.xml" value="0.16944444444444445" />
         <entry key="..\:/Users/Eman/AndroidStudioProjects/PlayKids/app/src/main/res/layout-w360dp-h800dp/activity_main.xml" value="0.16944444444444445" />
-        <entry key="..\:/Users/Eman/AndroidStudioProjects/PlayKids/app/src/main/res/layout/activity_main.xml" value="0.176" />
-        <entry key="..\:/Users/Eman/AndroidStudioProjects/PlayKids/app/src/main/res/layout/activity_splash.xml" value="0.14105191256830601" />
+        <entry key="..\:/Users/Eman/AndroidStudioProjects/PlayKids/app/src/main/res/layout-w360dp-h800dp/activity_splash.xml" value="0.16944444444444445" />
+        <entry key="..\:/Users/Eman/AndroidStudioProjects/PlayKids/app/src/main/res/layout-w360dp-h800dp/activity_splash2.xml" value="0.15198087431693988" />
+        <entry key="..\:/Users/Eman/AndroidStudioProjects/PlayKids/app/src/main/res/layout-w360dp-h800dp/activity_splash3.xml" value="0.15198087431693988" />
+        <entry key="..\:/Users/Eman/AndroidStudioProjects/PlayKids/app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="..\:/Users/Eman/AndroidStudioProjects/PlayKids/app/src/main/res/layout/activity_main.xml" value="0.15198087431693988" />
+        <entry key="..\:/Users/Eman/AndroidStudioProjects/PlayKids/app/src/main/res/layout/activity_splash.xml" value="0.20153985507246377" />
+        <entry key="..\:/Users/Eman/AndroidStudioProjects/PlayKids/app/src/main/res/layout/activity_splash2.xml" value="0.20153985507246377" />
+        <entry key="..\:/Users/Eman/AndroidStudioProjects/PlayKids/app/src/main/res/layout/activity_splash3.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Eman/AndroidStudioProjects/PlayKids/app/src/main/res/layout/activity_vasibility_off.xml" value="0.16944444444444445" />
+        <entry key="..\:/Users/Eman/AndroidStudioProjects/PlayKids/app/src/main/res/layout/activity_welcome.xml" value="0.16944444444444445" />
       </map>
     </option>
   </component>

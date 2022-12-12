@@ -9,16 +9,16 @@ import android.view.Window;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-public class Splash extends AppCompatActivity {
 
-    ImageView next , vector;
+public class Splash2 extends AppCompatActivity {
+
+    ImageView next, vector;
     TextView skip;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_splash);
+        setContentView(R.layout.activity_splash2);
 
         next=findViewById(R.id.next_button);
         vector=findViewById(R.id.vector);
@@ -27,7 +27,7 @@ public class Splash extends AppCompatActivity {
         vector.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent next = new Intent(Splash.this,Login.class);
+                Intent next = new Intent(Splash2.this,Login.class);
                 startActivity(next);
             }
         });
@@ -35,7 +35,7 @@ public class Splash extends AppCompatActivity {
         skip.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent next = new Intent(Splash.this,Login.class);
+                Intent next = new Intent(Splash2.this,Login.class);
                 startActivity(next);
             }
         });
@@ -43,7 +43,7 @@ public class Splash extends AppCompatActivity {
         next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent next = new Intent(Splash.this,Splash2.class);
+                Intent next = new Intent(Splash2.this,Splash3.class);
                 startActivity(next);
             }
         });

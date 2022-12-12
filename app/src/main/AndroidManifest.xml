@@ -16,8 +16,22 @@
         tools:replace="android:supportsRtl"
         tools:targetApi="31">
         <activity
-            android:name=".Splash"
+            android:name=".Login"
             android:exported="false" />
+        <activity
+            android:name=".Splash3"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.PlayKids.SlidrActivityTheme" />
+        <activity
+            android:name=".Splash2"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.PlayKids.SlidrActivityTheme" />
+        <activity
+            android:name=".Splash"
+            android:exported="false"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".MainActivity"
             android:exported="true"

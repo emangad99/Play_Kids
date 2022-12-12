@@ -11,18 +11,21 @@
         android:id="@+id/skip"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="264dp"
-        android:layout_marginTop="7dp"
-        android:layout_marginEnd="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="290dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="764dp"
         android:fontFamily="@font/arial_bold"
         android:gravity="center_horizontal|top"
         android:text="Skip"
         android:textColor="@color/co6"
         android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.505"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/vector" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/vector"
@@ -31,9 +34,9 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="330dp"
-        android:layout_marginTop="19dp"
+        android:layout_marginTop="25dp"
         android:layout_marginEnd="25dp"
-        android:layout_marginBottom="692dp"
+        android:layout_marginBottom="766dp"
         android:background="@drawable/vvector"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -41,16 +44,17 @@
         app:layout_constraintTop_toTopOf="parent" />
 
 
+
     <ImageView
         android:id="@+id/group_41"
-        android:layout_width="354.05dp"
-        android:layout_height="416.1dp"
+        android:layout_width="388dp"
+        android:layout_height="456dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="-12dp"
-        android:layout_marginTop="80dp"
-        android:layout_marginEnd="-13dp"
-        android:layout_marginBottom="235dp"
+        android:layout_marginStart="-13dp"
+        android:layout_marginTop="87dp"
+        android:layout_marginEnd="-15dp"
+        android:layout_marginBottom="257dp"
         android:background="@drawable/splah"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -59,14 +63,14 @@
 
     <ImageView
         android:id="@+id/points"
-        android:layout_width="56.58dp"
-        android:layout_height="12.77dp"
+        android:layout_width="62dp"
+        android:layout_height="14dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="135.96dp"
-        android:layout_marginTop="559dp"
-        android:layout_marginEnd="136dp"
-        android:layout_marginBottom="158dp"
+        android:layout_marginStart="149dp"
+        android:layout_marginTop="613dp"
+        android:layout_marginEnd="149dp"
+        android:layout_marginBottom="173dp"
         android:background="@drawable/points"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -75,20 +79,18 @@
 
     <ImageView
         android:id="@+id/next_button"
-        android:layout_width="62.47dp"
-        android:layout_height="73dp"
+        android:layout_width="68.46dp"
+        android:layout_height="80dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="133dp"
-        android:layout_marginTop="608dp"
-        android:layout_marginEnd="132dp"
-        android:layout_marginBottom="49dp"
+        android:layout_marginStart="146dp"
+        android:layout_marginTop="667dp"
+        android:layout_marginEnd="145dp"
+        android:layout_marginBottom="53dp"
         android:background="@drawable/next_button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -5,40 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/co2"
-    tools:context=".Splash">
+    tools:context=".Splash3">
 
-    <TextView
-        android:id="@+id/skip"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="264dp"
-        android:layout_marginTop="7dp"
-        android:layout_marginEnd="30dp"
-        android:fontFamily="@font/arial_bold"
-        android:gravity="center_horizontal|top"
-        android:text="Skip"
-        android:textColor="@color/co6"
-        android:textSize="14sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.505"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/vector" />
-
-    <ImageView
-        android:id="@+id/vector"
-        android:layout_width="21dp"
-        android:layout_height="30dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="330dp"
-        android:layout_marginTop="19dp"
-        android:layout_marginEnd="25dp"
-        android:layout_marginBottom="692dp"
-        android:background="@drawable/vvector"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
 
     <ImageView
@@ -51,7 +19,7 @@
         android:layout_marginTop="80dp"
         android:layout_marginEnd="-13dp"
         android:layout_marginBottom="235dp"
-        android:background="@drawable/splah"
+        android:background="@drawable/splash3"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -67,7 +35,7 @@
         android:layout_marginTop="559dp"
         android:layout_marginEnd="136dp"
         android:layout_marginBottom="158dp"
-        android:background="@drawable/points"
+        android:background="@drawable/points3"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -83,12 +51,10 @@
         android:layout_marginTop="608dp"
         android:layout_marginEnd="132dp"
         android:layout_marginBottom="49dp"
-        android:background="@drawable/next_button"
+        android:background="@drawable/go_button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

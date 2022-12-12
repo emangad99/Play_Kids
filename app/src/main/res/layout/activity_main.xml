@@ -9,9 +9,9 @@
 
     <TextView
         android:id="@+id/play"
-        android:layout_width="219dp"
-        android:layout_height="157dp"
-        android:layout_marginStart="81dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
         android:layout_marginTop="157dp"
         android:layout_marginEnd="60dp"
         android:layout_marginBottom="465dp"
@@ -27,11 +27,11 @@
 
     <TextView
         android:id="@+id/kids"
-        android:layout_width="206dp"
-        android:layout_height="147dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="85dp"
+        android:layout_marginStart="70dp"
         android:layout_marginTop="442dp"
         android:layout_marginEnd="69dp"
         android:layout_marginBottom="187dp"
