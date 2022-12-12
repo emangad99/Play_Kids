@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "260280790739",
+    "project_id": "play-kids-677e0",
+    "storage_bucket": "play-kids-677e0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:260280790739:android:7b37cf159d1beb61806e26",
+        "android_client_info": {
+          "package_name": "com.example.playkids"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "260280790739-j9plq3c5ihbq112mq1d5mgcm0btb32gl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTdRbqx5lG2IJ4lEK-R01qQQ_y_Fm5TP0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "260280790739-j9plq3c5ihbq112mq1d5mgcm0btb32gl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
