@@ -39,6 +39,14 @@ public class Register extends AppCompatActivity {
             }
         });
 
+        go.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent con = new Intent(Register.this,gender.class);
+                startActivity(con);
+            }
+        });
+
         pass.setOnTouchListener(new View.OnTouchListener() {
             @Override
             public boolean onTouch(View v, MotionEvent event) {
@@ -96,4 +104,12 @@ public class Register extends AppCompatActivity {
             getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR);
         }
     }
+/*
+    @Override
+    public void onBackPressed() {
+        Intent back = new Intent(Register.this,Login.class);
+        startActivity(back);
+    }
+
+ */
 }
