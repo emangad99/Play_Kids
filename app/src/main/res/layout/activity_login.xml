@@ -9,8 +9,8 @@
 
     <EditText
         android:id="@+id/email"
-        android:layout_width="248.2dp"
-        android:layout_height="42.89dp"
+        android:layout_width="272dp"
+        android:layout_height="47dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginTop="135dp"
@@ -30,8 +30,8 @@
 
     <EditText
         android:id="@+id/Password"
-        android:layout_width="248.2dp"
-        android:layout_height="42.89dp"
+        android:layout_width="272dp"
+        android:layout_height="47dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginTop="197dp"
@@ -66,7 +66,7 @@
         android:gravity="top"
         android:text="Forgot your password ? "
         android:textColor="@color/co6"
-        android:textSize="10sp"
+        android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -107,8 +107,8 @@
 
     <Button
         android:id="@+id/login"
-        android:layout_width="154.21dp"
-        android:layout_height="37.41dp"
+        android:layout_width="169dp"
+        android:layout_height="41dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginTop="281dp"
@@ -118,7 +118,7 @@
         android:text="Let's Go"
         android:textAllCaps="false"
         android:textColor="@color/white"
-        android:textSize="26sp"
+        android:textSize="28sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -132,7 +132,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="93dp"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="5dp"
         android:layout_marginEnd="128dp"
         android:layout_marginBottom="396dp"
         android:fontFamily="@font/arial_bold"
@@ -153,11 +153,10 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="210dp"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="5dp"
         android:layout_marginEnd="93dp"
         android:layout_marginBottom="396dp"
         android:fontFamily="@font/arial_bold"
-
         android:gravity="top"
         android:text="Sign up"
         android:textColor="@color/co6"
