@@ -21,6 +21,22 @@ public class gender extends AppCompatActivity {
         boy=findViewById(R.id.boy);
         girl=findViewById(R.id.girl);
 
+        girl.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent girl = new Intent(gender.this,inform_girl.class);
+                startActivity(girl);
+            }
+        });
+
+        boy.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent boy = new Intent(gender.this,inform_boy.class);
+                startActivity(boy);
+            }
+        });
+
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
